@@ -2,19 +2,21 @@
 
 ```
 .
-├── README.md
 ├── database
 │   ├── raw
 │   │   ├── iris.csv
 │   │   └── iris.txt
-│   ├── trusted
-│   └── temp
+│   ├── temp
+│   └── trusted
 ├── commons
 │   └── __init__.py
+├── __init__.py
+├── README.md
 ├── src
 │   ├── __init__.py
 │   └── beam
 │       └── pipelines
+│           ├── dags.py
 │           └── pipeline.py
-└── __init__.py
+└── execute.sh
 ```
