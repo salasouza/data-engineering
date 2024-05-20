@@ -10,7 +10,7 @@ with beam.Pipeline() as p_1:
         |"Read database" >> beam.io.ReadFromText("database/raw/iris.csv", skip_header_lines = 1)
         |"Transform" >> beam.Map(lambda record: record.split(','))
         |"Filter values" >> beam.Filter(lambda record: float(record[2]) > 2)
-        # |"Show database" >> beam.Map(print)
+        |"Show database" >> beam.Map(print)
         |"Save database" >> beam.io.WriteToText('database/trusted/iris_test.csv')    
         )
     
