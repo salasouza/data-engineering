@@ -1,0 +1,7 @@
+Id_consulta, status, duracao
+1, Cancelada, 0
+2, Finalizada, 15
+3, Finalizada, 9
+4, Cancelada, 0
+5, Finalizada, 11
+6, Finalizada, 20
